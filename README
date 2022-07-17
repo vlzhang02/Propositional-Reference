@@ -1,0 +1,25 @@
+******************************************************************************
+* HW03: Propositional Inference
+* CS131 Summer 2022
+* README
+* Author: Valerie Zhang vzhang02
+******************************************************************************
+
+Program Purpose:
+----------------
+    The purpose of this program is to perform propositional inference using 
+    forward chaining. Clients are able to query symbols to see if the
+    knowledge base entails them, and can choose when to end the query. 
+
+    *This program is written in C++.
+
+Compile/run:
+-----------
+    Compile using:
+        make 
+    Run executable with:
+        ./forward_chain KnowledgeBaseFile
+
+Notes:
+------
+    - uses g++ to compile
